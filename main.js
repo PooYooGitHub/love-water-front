@@ -18,7 +18,7 @@ import { $http } from '@escook/request-miniprogram'
 uni.$http = $http
 
 // 配置请求根路径
-$http.baseUrl = 'https://result.eolink.com/'
+$http.baseUrl = 'https://result.eolink.com/uBp3VVR9462e54ac2f4fce3c1148df4d511adfcdf761474?uri='
 
 // 请求开始之前做一些事情
 $http.beforeRequest = function (options) {
